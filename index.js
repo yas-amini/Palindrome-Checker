@@ -1,6 +1,6 @@
-// Select the input element by its ID "input" and store it in the variable 'input'
+// Get the input field
 const input = document.getElementById("input")
-// Function to reverse a given string
+// Reverse the input
 function reverseString(str){
     //splits the string into an array of characters, reverses the array, then joins it back into a string 
     return str.split("").reverse().join("")
