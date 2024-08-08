@@ -19,4 +19,6 @@ function check() {
         // If not equal, displays "Not today!"
         alert("Not today!")
     }
+    // Clearing the input field 
+    input.value = ""
 }
